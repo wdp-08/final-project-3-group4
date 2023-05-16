@@ -27,3 +27,12 @@ padding: 1rem;
 
 color: #2B2B2B;
 }
+
+.btn-price {
+width: 140px;
+height: 40px;
+left: 650px;
+top: 1669px;
+
+background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+}
