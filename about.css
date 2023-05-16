@@ -36,3 +36,18 @@ top: 1669px;
 
 background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
 }
+
+.panah{
+width: 10%;
+height: 10%;
+border-radius: 50%;
+background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+border: 2px solid #FFFFFF;
+}
+
+.background{
+background: linear-gradient(to bottom, white 50%, #020E35 50%);
+margin: 0;
+padding: 0;
+height: 100vh;
+}
