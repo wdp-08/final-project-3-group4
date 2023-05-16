@@ -1,0 +1,29 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.title {
+font-family: 'Basic';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+text-align: center;
+padding: 1rem;
+
+color: #020E35;
+}
+
+.sub-title {
+font-family: 'Basic';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+padding: 1rem;
+
+color: #2B2B2B;
+}
