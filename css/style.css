@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Basic&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Basic", sans-serif;
+    font-size: normal;
+}
+
+:root {
+    --color-1: #020e35;
+}
+
+/* header */
+nav #navbar-brand {
+    height: 115px;
+    width: 95px;
+    background: linear-gradient(90deg, rgba(231, 53, 135, 1) 0%, rgba(140, 50, 240, 1) 100%);
+    position: absolute;
+    top: 0;
+}
+  
+nav .logo {
+    background-color: #020e35;
+    height: 110px;
+    width: 95px;
+    position: absolute;
+    top: 0;
+    margin: 0;
+}
+  
+nav .logo img {
+    margin: 30px auto;
+}
+  
+nav .contact-us {
+    width: 90px;
+    height: 35px;
+    color: white !important;
+    background: linear-gradient(90deg, rgba(231, 53, 135, 1) 0%, rgba(140, 50, 240, 1) 100%);
+}
+
+@media (max-width: 768px) {
+    nav #navbar-brand {
+      height: 73px;
+    }
+  
+    nav .logo {
+      height: 65px;
+    }
+  
+    nav .logo img {
+      margin: 9px auto;
+    }
+}
+
+footer p{
+    width: 258px;
+    height: 15px;
+    left: 135px;
+    top: 4536px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;  
+    color: #FFFFFF;
+}
