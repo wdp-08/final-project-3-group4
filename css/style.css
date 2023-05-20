@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Basic&display=swap");
+
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +20,7 @@ nav #navbar-brand {
     position: absolute;
     top: 0;
 }
-  
+
 nav .logo {
     background-color: #020e35;
     height: 110px;
@@ -28,11 +29,11 @@ nav .logo {
     top: 0;
     margin: 0;
 }
-  
+
 nav .logo img {
     margin: 30px auto;
 }
-  
+
 nav .contact-us {
     width: 90px;
     height: 35px;
@@ -42,26 +43,26 @@ nav .contact-us {
 
 @media (max-width: 768px) {
     nav #navbar-brand {
-      height: 73px;
+        height: 73px;
     }
-  
+
     nav .logo {
-      height: 65px;
+        height: 65px;
     }
-  
+
     nav .logo img {
-      margin: 9px auto;
+        margin: 9px auto;
     }
 }
 
-footer p{
+footer p {
     width: 258px;
     height: 15px;
     left: 135px;
     top: 4536px;
     font-weight: 400;
     font-size: 12px;
-    line-height: 15px;  
+    line-height: 15px;
     color: #FFFFFF;
 }
 
@@ -99,7 +100,7 @@ footer p{
 }
 
 .row .card-1 {
-    background-color:  #F09532;
+    background-color: #F09532;
     height: 390px;
     left: 40px;
     top: 1951px;
@@ -182,5 +183,75 @@ footer p{
     .row .card-3 img,
     .row .card-4 img {
         width: auto;
+    }
+}
+
+/* banner */
+.jumbotron h1 {
+    font-size: 85px;
+    font-weight: 400;
+    padding-top: 165px;
+    padding-left: 120px;
+    margin-bottom: 0;
+    width: 700px;
+    position: relative;
+    z-index: 2;
+}
+
+.jumbotron .work {
+    width: 140px;
+    height: 40px;
+    margin-left: 120px;
+    margin-top: -23px;
+    color: white !important;
+    background: linear-gradient(90deg, rgba(231, 53, 135, 1) 0%, rgba(140, 50, 240, 1) 100%);
+    font-size: 12px;
+    position: absolute;
+    z-index: 1;
+}
+
+@media (max-width: 1080px) {
+    .jumbotron h1 {
+        width: 100%;
+        padding-top: 120px;
+        padding: auto;
+        font-size: 6vw;
+    }
+
+    .jumbotron .work {
+        position: relative;
+        width: auto;
+        height: auto;
+        font-size: 1.6vw;
+    }
+
+    .jumbotron img{
+        width: 90%;
+    }
+}
+
+@media (max-width: 840px) {
+    .jumbotron h1 {
+        width: 120%;
+        padding-top: 60px;
+    }
+
+    .jumbotron .work {
+        margin-top: auto;
+    }
+}
+
+@media (max-width: 765px){
+    .jumbotron .col-md-5 {
+        order: 2;
+    }
+
+    .jumbotron .col-md-7 {
+        order: 1;
+    }
+
+    .jumbotron h1 {
+        width: 90%;
+        padding-top: 40px;
     }
 }
