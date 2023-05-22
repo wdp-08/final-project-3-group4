@@ -55,7 +55,7 @@ nav .contact-us {
     }
 }
 
-footer p {
+/* footer p {
     width: 258px;
     height: 15px;
     left: 135px;
@@ -64,7 +64,7 @@ footer p {
     font-size: 12px;
     line-height: 15px;
     color: #FFFFFF;
-}
+} */
 
 /*our work*/
 .container-hero .content {
@@ -313,3 +313,31 @@ footer p {
     height: 100%;
     }
 /* Tutup Halaman About */
+
+/* newsletter & footer */
+
+.font-basic{
+    font-family: 'Basic';
+    font-style: normal;
+}
+
+.font-worksans{
+    font-family: 'Work Sans';
+    font-style: normal;
+}
+
+.news-sub{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.news-title{
+    font-weight: 400;
+    font-size: 90px;
+}
+
+.grad {
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+  }
+
+  /* newsletter & footer */
