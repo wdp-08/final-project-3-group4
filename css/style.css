@@ -92,7 +92,7 @@ nav .contact-us {
     height: 1px;
     left: 670px;
     top: 1890px;
-    border: 2px solid #E73587;
+    border: 1px solid #E73587;
 }
 
 .row {
@@ -281,11 +281,12 @@ nav .contact-us {
     }
     
     .btn-price {
-    width: 140px;
-    height: 40px;
-    left: 650px;
-    top: 1669px;
-    
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    border-radius: 0px;
     background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
     }
     
